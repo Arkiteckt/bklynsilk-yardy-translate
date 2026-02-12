@@ -11,7 +11,7 @@ Crowd-translate Jamaican dancehall lyrics into Spanish and Brazilian Portuguese 
 
 ## Getting Started
 
-1. Create a Supabase project and run `sql/schema.sql`.
+1. Create a Supabase project and run `sql/schema.sql` (SQL Editor → paste and run).
 2. Copy `.env.example` to `.env.local` and fill in values.
 3. Install deps and run dev:
 
@@ -21,6 +21,16 @@ npm run dev
 ```
 
 Open http://localhost:3004
+
+### Required Environment
+```
+NEXT_PUBLIC_SUPABASE_URL=...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+OPENAI_API_KEY=...
+AGENTWALLET_USERNAME=orlandotyrell
+AGENTWALLET_API_TOKEN=mf_...
+PAYOUT_RECIPIENT_SOL=DEVNET_ADDRESS
+```
 
 ## Payouts (Devnet)
 - Set `AGENTWALLET_USERNAME` and `AGENTWALLET_API_TOKEN` from AgentWallet connect flow.
