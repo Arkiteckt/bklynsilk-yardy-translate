@@ -2,6 +2,10 @@
 
 Crowd-translate Jamaican dancehall lyrics into Spanish and Brazilian Portuguese with human-in-the-loop consensus and Solana rewards (devnet demo).
 
+1. These RLS policies are INSECURE - They allow any authenticated user to read/write everything
+2. For production, you'll need to replace these with proper user-based policies
+3. Keep this note in your README so people don't accidentally use these policies in production
+
 ## Stack
 - Next.js 14 (app router)
 - API routes (server actions coming)
